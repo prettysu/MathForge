@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mathforge"
+version = "0.1.0"
+description = "Claim-gated, auditable multi-agent workflows for mathematical reasoning"
+requires-python = ">=3.12"
+
+[project.scripts]
+mathforge = "mathforge.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

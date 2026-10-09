@@ -1,0 +1,2 @@
+Study convergence of a bounded deterministic iteration and compare its direct
+and spectral computations on a finite grid.
